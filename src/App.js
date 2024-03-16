@@ -79,6 +79,7 @@ function showWeather(response) {
           </div>
         </div>
       </main>
+        <footer>This project was coded by <a href="https://github.com/Binaakwe" target="_blank" rel='noreferrer'>Briana Lesage</a>. Code hosted on <a href="https://github.com/Binaakwe/weather-react" target="_blank" rel='noreferrer'>GitHub</a>, website hosted on <a href="https://weather-app-react-briana.netlify.app/" target="_blank" rel='noreferrer'>Netlify</a></footer>
     </div>
   );
 }
