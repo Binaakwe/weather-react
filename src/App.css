@@ -1,38 +1,81 @@
-.App {
+body {
+  background-color: rgb(240, 248, 255);
+}
+
+.weather-app {
+  background-color: white;
+  max-width: 600px;
+  padding: 30px;
+  margin: 20px auto;
+  box-shadow: 0 5px 20px rgb(182, 177, 210);
+  border-radius: 20px;
+  font-family: "Nanum Myeongjo", serif;
+}
+.search-form {
+  margin: 0 auto;
+}
+.search-input {
+  background-color: rgb(240, 248, 255);
+  color: rgb(193, 187, 187);
+  padding: 10px;
+  border: solid 2px rgb(136, 186, 232);
+  border-radius: 5px;
+  width: 50%;
+  text-align: center;
+  margin-left: 20%;
+}
+.search-button {
+  background-color: rgb(136, 186, 232);
+  color: white;
+  box-shadow: none;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 18px;
+}
+.current-weather {
+  display: flex;
+  justify-content: space-around;
+}
+.city {
+  font-size: 48px;
+  margin-left: 10px;
+}
+.weather-description {
+  font-size: 18px;
+  margin-left: 10px;
+}
+.description {
+  color: rgb(227, 28, 134);
+}
+.current-weather-details {
+  font-size: 15px;
+  margin: 0 0 30px 10px;
+}
+.current-humidity,
+.current-windspeed {
+  color: rgb(227, 28, 134);
+  font-weight: bolder;
+}
+.temperature-container {
+  display: flex;
+  justify-content: space-around;
+}
+.current-temperature {
+  font-size: 70px;
+  margin-top: 115px;
+}
+.temperature-unit {
+  font-size: 16px;
+  margin-top: 125px;
+}
+.temperature-icon {
+  margin-top: 100px;
+}
+footer {
+  font-size: 12px;
+  padding: 20px 5px 8px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  color: rgb(136, 186, 232);
 }
